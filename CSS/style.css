@@ -142,10 +142,10 @@ footer{
     text-align: center;
     padding: 1em 0;
 }
-footer > img{
+footer > a > img{
     cursor: pointer;
     width: 2em;
 }
-footer > img:hover{
+footer > a > img:hover{
     opacity: 60%;
 }
