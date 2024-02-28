@@ -128,7 +128,7 @@ main > section > article:hover{
     border-right: 0.4em solid #782221;
     margin-right: 1em;
 }
-main > section > li:hover{
+main > section > ul >li:hover{
     border-right: 0.4em solid #782221;
     margin-right: 1em;
 }
