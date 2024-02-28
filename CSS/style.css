@@ -1,8 +1,15 @@
 @font-face {
-    font-family: "Raleway";
-    src:
-      local("Raleway"),
-      url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+    font-family: "RalewayRegular";
+    src: url("../Assets/Raleway/Raleway-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: "RalewayBold";
+    src: url("../Assets/Raleway/Raleway-VariableFont_wght.ttf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "RalewayItalic";
+    src: url("../Assets/Raleway/Raleway-Italic-VariableFont_wght.ttf");
 }
 h1, h2, h3{
     font-family: "Lato", sans-serif;
@@ -13,7 +20,7 @@ html{
 body{
     display: flex;
     flex-direction: column;
-    font-family: "Raleway", sans-serif;
+    font-family: "RalewayRegular", sans-serif;
     width: 1160px;
     height: 100%;
     margin-left: auto;
@@ -52,7 +59,7 @@ section > h2 , section > h1{
     margin-top: 0.5em;
 }
 section > h2{
-    font-weight: 500;
+    font-family: "RalewayBold", sans-serif;
     font-size: 1em;
     margin: 1.5em 0 1em 0;
 }
@@ -61,9 +68,7 @@ address{
     background-color: black;
     height: 4em;
     padding: 2em 0 0 2em;;
-    font-family: "Raleway", sans-serif;
-    font-weight: 100;
-    font-style: italic;
+    font-family: "RalewayItalic", sans-serif;
     display: flex;
     gap: 22em;
 }
@@ -90,7 +95,7 @@ main > article{
 }
 main > article p, main > article ul{
     color: white;
-    font-weight: 300;
+    font-family: "RalewayRegular", sans-serif;
 }
 main > article > h3{
     background-color: #dbc2a4;
